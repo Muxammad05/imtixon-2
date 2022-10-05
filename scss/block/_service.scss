@@ -1,0 +1,135 @@
+.service{
+    padding: 0 29px;
+    display: flex;
+}
+
+.service__title-wrap{
+    display: flex;
+}
+
+.service__title{
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.service__list{
+    margin-bottom: 14px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service__item{
+    padding: 30px 32px 42px 35px;
+    width: 201px;
+    background: #FFFFFF;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.service__item:hover{
+    opacity: 0.8;
+}
+
+.service__item:active{
+    opacity: 0.6;
+}
+
+.service__subtitle{
+    padding-top: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.service__wrapper{
+    padding: 41px 105px 43px 35px;
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 0px 5px 5px 5px;
+}
+
+.service__contents{
+    padding-top: 33px;
+    max-width: 492px;
+}
+
+.service__subject{
+    padding-bottom: 18px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.service__text{
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.service__button-wrap{
+    margin: 0 auto;
+    margin-top: 34px;
+    display: flex;
+    gap: 21px;
+}
+
+.service__button{
+    padding: 15px 36px 15px 63px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #FFBD54;
+    border-radius: 3px;
+    border-color: transparent;
+}
+
+.service__button:hover{
+    color: #FFBD54;
+    background: #333333;
+}
+
+.service__button:active{
+    color: #FFBD54;
+    background: #333333;
+    opacity: 0.6;
+}
+
+.service__btn{
+    padding: 15px 36px 15px 63px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #333333;
+    border-radius: 3px;
+    border-color: transparent;
+}
+
+.service__btn:hover{
+    color: #333333;
+    background: #FFBD54;
+}
+
+.service__btn:active{
+    color: #333333;
+    background: #FFBD54;
+    opacity: 0.6;
+}

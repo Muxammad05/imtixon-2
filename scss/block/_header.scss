@@ -1,0 +1,153 @@
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top__link{
+    margin-left: 149px;
+    padding-left: 19px;
+    @include header-links;
+    position: relative;
+}
+
+.header-top__link::before{
+    content: url(../img/header-top-img-1.svg);
+    position: absolute;
+    left: 0;
+}
+
+.header-top__list, .header-top__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top__item{
+    margin-left: 9px;
+    padding-left: 9px;
+    position: relative;
+}
+
+.header-top__item:nth-child(1){
+    margin-left: 0;
+    padding-left: 22px;
+}
+
+.header-top__item-link{
+    @include header-links;
+}
+
+.header-top__item-link:hover{
+    color:#FFBD54;
+}
+
+.header-top__item-link:active{
+    opacity: 0.6;
+}
+
+.tel--before:before{
+    content: url(../img/header-top-img-2.svg);
+    position: absolute;
+    left: 0;
+}
+
+.round--before:before{
+    content: url(../img/header-top-img-3.svg);
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+
+.hours__list{
+    max-width: 274px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hours__item{
+    display: flex;
+    gap: 3px;
+}
+
+.hours__item:nth-child(1){
+    position: relative;
+}
+
+.hours__item:nth-child(1)::before{
+    content: url(../img/header-top-img-4.svg);
+    position: absolute;
+    left: -20px;
+}
+
+.hours__title, .hours__text{
+    @include header-links;
+}
+
+.header-bottom{
+    background-color: #fff;
+}
+
+.header-bottom__contents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 61px;
+}
+
+.header-bottom__logo-wrapper:hover{
+    opacity: 0.8;
+}
+
+.header-bottom__logo-wrapper:active{
+    opacity: 0.6;
+}
+
+.nav__list{
+    display: flex;
+}
+
+.nav__item + .nav__item {
+    margin-left: 55px;
+}
+
+.nav__item:nth-child(1){
+    padding-left: 27px;
+    position: relative;
+}
+
+.nav__item:nth-child(1)::before{
+    content: url(../img/header-bottom-img-1.svg);
+    position: absolute;
+    left: 0;
+}
+
+.nav__link, .header-bottom__link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.nav__link:hover{
+    border-bottom:2px solid #F4FFAD;
+}
+
+.nav__link:active{
+    border-bottom:2px solid #F4FFAD;
+    opacity: 0.6;
+}
+
+.header-bottom__link{
+    padding-left: 28px;
+    position: relative;
+    text-align: right;
+}
+
+.header-bottom__link::before{
+    content: url(../img/header-bottom-img-2.svg);
+    position: absolute;
+    top: -2px;
+    left: 0;
+}

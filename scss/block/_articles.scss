@@ -1,0 +1,119 @@
+.articles__title{
+    margin-bottom: 81px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    color: #333333;
+    text-align: center;
+}
+
+.articles__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.articles__item{
+    background: #FEFEFE;
+    border: 1px solid #E4E4E2;
+    border-radius: 5px;
+}
+
+.articles__subtext{
+    padding: 21px 22px 2px 0;
+    text-align: right;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+}
+
+.articles__contents{
+    padding: 0 31px 35px 30px;
+}
+
+.articles__subtitle{
+    margin-bottom: 10px;
+    max-width: 195px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.articles__text{
+    margin-bottom: 34px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.articles__link{
+    padding-left: 30px;
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.articles__link::before{
+    content: url('../img/articles-img-4.svg');
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.articles__items{
+    padding-top: 23px;
+    display: flex;
+    gap: 9px;
+}
+
+.articles__item__middle{
+    display: flex;
+    background: #FEFEFE;
+    border: 1px solid #E4E4E2;
+    border-radius: 5px;
+}
+
+.articles__content{
+    padding: 41px 35px 29px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articles__subtitle__middle{
+    margin-bottom: 15px;
+    max-width: 197px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.articles__text__middle{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.articles__item:hover{
+    box-shadow: 5px 5px 12px 2px rgba(0,0,0,0.75);
+}
+
+.articles__item__middle:hover{
+    box-shadow: 5px 5px 12px 2px rgba(0,0,0,0.75);
+}
+
+.articles__item:active{
+    box-shadow: 5px 5px 12px 2px rgba(0,0,0,0.75);
+}
+
+.articles__item__middle:active{
+    box-shadow: 5px 5px 12px 2px rgba(0,0,0,0.75);
+}
